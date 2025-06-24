@@ -1,170 +1,110 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #0b0b14;
-  color: #ffffff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-}
 
-.container {
-  padding: 30px 20px;
-}
+    body {
+      margin: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: #f8f9fa;
+      color: #202122;
+    }
 
-.logo {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin: 10px 0;
-  font-family: "Georgia", serif;
-}
+    header {
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+    }
 
-.tagline {
-  font-size: 1rem;
-  color: #dcdcdc;
-}
+    .logo-search {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
 
-.language-block {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin: 30px 0;
-}
+    .logo-search h1 {
+      margin: 0;
+      font-size: 28px;
+    }
 
-.lang {
-  width: 200px;
-  text-align: left;
-  margin: 10px 20px;
-}
+    .logo-search input {
+      padding: 5px 10px;
+      font-size: 16px;
+    }
 
-.lang p {
-  margin: 8px 0;
-  font-size: 0.95rem;
-}
+    .banner {
+      background-color: #eaf3ff;
+      color: #006699;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
 
-.logo-img img {
-  width: 300px;
-  height: 300px;
-  margin: 20px;
-}
+    .container {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
 
-.search-box {
-  margin: 20px 0;
-}
+    article {
+      flex: 3;
+    }
 
-.search-box input,
-.search-box select,
-.search-box button {
-  padding: 10px;
-  margin: 5px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-}
+    aside.sidebar {
+      flex: 1;
+    }
 
-.search-box input {
-  width: 250px;
-}
+    .infobox {
+      background-color: #fff;
+      border: 1px solid #a2a9b1;
+      padding: 15px;
+      font-size: 14px;
+    }
 
-.search-box button {
-  background-color: #3366cc;
-  color: white;
-  cursor: pointer;
-}
+    .infobox h4 {
+      margin-top: 0;
+      text-align: center;
+    }
 
-.footer-links {
-  margin-top: 20px;
-}
+    .infobox img {
+      max-width: 100%;
+      display: block;
+      margin: 10px auto;
+    }
 
-.footer-links button {
-  padding: 10px 20px;
-  background-color: #1a1a1b;
-  color: #ccc;
-  border: 1px solid #333;
-  border-radius: 4px;
-  cursor: pointer;
-}
+    .infobox ul {
+      list-style: none;
+      padding-left: 0;
+    }
 
-.wiki-projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 40px 20px;
-  border-top: 1px solid #333;
-  color: #ccc;
-}
+    .infobox li {
+      margin: 6px 0;
+    }
 
-.project-left {
-  flex: 1;
-  min-width: 300px;
-  max-width: 500px;
-}
+    footer {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      border-top: 1px solid #ccc;
+    }
 
-.project-left p img {
-  vertical-align: middle;
-  margin-right: 10px;
-}
+    .related ul {
+      list-style: none;
+      padding-left: 0;
+    }
 
-.project-left a {
-  color: #6ba4ff;
-  text-decoration: none;
-}
+    .related li {
+      margin: 6px 0;
+    }
 
-.download-app {
-  display: flex;
-  margin-top: 20px;
-  background-color: #1a1a1b;
-  padding: 15px;
-  border-radius: 5px;
-}
+    a {
+      color: #0645ad;
+      text-decoration: none;
+    }
 
-.download-app img {
-  width: 40px;
-  height: 40px;
-  margin-right: 15px;
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-.download-app .app-links img {
-  width: 130px;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-
-.project-right {
-  flex: 1;
-  min-width: 300px;
-}
-
-.project-right ul {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 15px;
-}
-
-.project-right li {
-  font-size: 0.95rem;
-}
-
-.project-right strong {
-  color: #add8ff;
-}
-
-a {
-  color: #aad4ff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer,
-.copyright {
-  text-align: center;
-  font-size: 0.8rem;
-  padding: 20px;
-  color: #999;
-  border-top: 1px solid #333;
-}
+    h2, h3 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
+    }
+  
